@@ -13,12 +13,12 @@ const onSubmitHandler = (event) => {
 const Login = () => {
   return (
     <div className="login">
-        <img src="" alt="" className="logo" />
+        <img src="" alt="image" className="logo" />
         <form action="" className="login-form">
             <h2>Sign Up</h2>
-            <input type="text" placeholder="username" className="form-input" />
-            <input type="email" placeholder="email address" className="form-input" />
-            <input type="password" placeholder="password" className="form-input" />
+            <input type="text" placeholder="username" className="form-input" required/>
+            <input type="email" placeholder="email address" className="form-input" required/>
+            <input type="password" placeholder="password" className="form-input" required/>
             <button type="submit">Sign Up</button>
             <div className="login-term">
                 <input type="checkbox" />
